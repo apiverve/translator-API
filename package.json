@@ -1,0 +1,32 @@
+{
+  "name": "@apiverve/translator",
+  "version": "1.1.5",
+  "description": "Translator is a simple tool for translating text. It returns the translated text.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/translator-API.git"
+  },
+  "keywords": [
+    "translator","translation","translate","text translation","language translation"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/translator-API/issues"
+  },
+  "homepage": "https://apiverve.com/marketplace/api/translator?utm_source=npm",
+  "devDependencies": {
+    "mocha": "^10.7.3",
+    "chai": "^5.1.1",
+    "dotenv": "^16.4.5"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "promise": "^8.3.0",
+    "axios": "1.7.7"
+  }
+}
